@@ -43,7 +43,7 @@ int main(int argc, const char * argv[])
     string text;
     unsigned char txt[264];
 
-   // Read_Encrypt("Text.txt", reinterpret_cast<string &>(text));
+    //Read_Encrypt("Text.txt", reinterpret_cast<string &>(text));
 
     Read_Encrypt("Encrypt.txt", reinterpret_cast<string &>(text));
 
